@@ -1,0 +1,15 @@
+[Unit]
+Description=Sonarr application instance
+After= syslog.target network.target
+
+[Service]
+User=admin
+Group=admin
+Type=simple
+ExecStart=/usr/bin/mono /apps/sonarr/bin/NzbDrone.exe  -nobrowser --port=8989
+TimeoutStopSec=20
+KillMode=process
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

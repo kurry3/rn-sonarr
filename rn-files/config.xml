@@ -1,0 +1,13 @@
+<Application resource-id="sonarr"><!-- 'resource-id' must be AppName -->
+  <Name>sonarr</Name>
+  <Author>kleong3</Author>
+  <Version>1.0.0</Version>
+  <RequireReboot>0</RequireReboot>
+  <ConfigURL/>
+  <LaunchURL>http://localhost:8989/</LaunchURL>
+  <ReservePort>8989</ReservePort>
+  <InfoURL>https://sonarr.tv</InfoURL>
+  <DebianPackage>sonarr</DebianPackage>
+  <ServiceName>fvapp-sonarr.service</ServiceName>
+  <Description lang="en-us">Smart PVR for newsgroup and bittorent users/</Description>
+</Application>
