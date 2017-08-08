@@ -1,0 +1,2 @@
+rn-files/* /apps/sonarr/
+git-files/* /apps/sonarr/bin

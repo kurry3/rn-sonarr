@@ -1,0 +1,4 @@
+sonarr: non-standard-toplevel-dir apps/
+sonarr: file-in-unusual-dir apps/sonarr/*
+sonarr: script-not-executable apps/sonarr/*
+sonarr: executable-not-elf-or-script apps/sonarr/*
